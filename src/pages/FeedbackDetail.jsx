@@ -425,7 +425,7 @@ function FeedbackDetail() {
                               className="h-[40px] w-[40px] rounded-full bg-center bg-cover"
                               style={{
                                 backgroundImage: `url(${
-                                  import.meta.env.VITE_SOURCE_IMAGE +
+                                  "https://raw.githubusercontent.com/AdanQuijadaC/product-feedback-app_byaqc/main/public/" +
                                   item.user.image.split("./").slice(1)
                                 })`,
                               }}
@@ -558,7 +558,7 @@ function FeedbackDetail() {
                                     className="h-[40px] w-[40px] rounded-full bg-center bg-cover"
                                     style={{
                                       backgroundImage: `url(${
-                                        import.meta.env.VITE_SOURCE_IMAGE +
+                                        "https://raw.githubusercontent.com/AdanQuijadaC/product-feedback-app_byaqc/main/public/" +
                                         item2.user.image.split("./").slice(1)
                                       }`,
                                     }}
