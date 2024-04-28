@@ -425,7 +425,8 @@ function FeedbackDetail() {
                               className="h-[40px] w-[40px] rounded-full bg-center bg-cover"
                               style={{
                                 backgroundImage: `url(${
-                                  "/public/" + item.user.image.split("./").slice(1)
+                                  import.meta.env.VITE_SOURCE_IMAGE +
+                                  item.user.image.split("./").slice(1)
                                 })`,
                               }}
                             ></div>
@@ -557,7 +558,8 @@ function FeedbackDetail() {
                                     className="h-[40px] w-[40px] rounded-full bg-center bg-cover"
                                     style={{
                                       backgroundImage: `url(${
-                                        "/public/" + item2.user.image.split("./").slice(1)
+                                        import.meta.env.VITE_SOURCE_IMAGE +
+                                        item2.user.image.split("./").slice(1)
                                       }`,
                                     }}
                                   ></div>
