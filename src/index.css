@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .h1_jost_bold {
+    size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.33px;
+    font-weight: bold;
+  }
+
+  .h2_jost_bold {
+    size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+  }
+
+  .h3_jost_bold {
+    size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+  }
+
+  .h4_jost_bold {
+    size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+  }
+
+  .body1_jost_regular {
+    size: 16px;
+    line-height: 23px;
+    font-weight: normal;
+  }
+
+  .body2_jost_regular {
+    size: 15px;
+    line-height: 22px;
+    font-weight: normal;
+  }
+
+  .body3_jost_regular {
+    size: 13px;
+    line-height: 19px;
+    font-weight: normal;
+  }
+
+
+
+}
